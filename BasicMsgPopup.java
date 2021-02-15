@@ -14,7 +14,6 @@ public class BasicMsgPopup extends JFrame{
         setDefaultCloseOperation(EXIT_ON_CLOSE); //This will make it so when the user closes the dialog box the program ends, saving system resources.
         setVisible(true); //Makes the box actually visible.
         JLabel _j1 = new JLabel (_s); //Creates new UI box.
-        
         Font _f1 = _j1.getFont(); //Creates a new Font instance that stores information about the JLabel _j1.
         Font _f2 = new Font (_f1.getName(), Font.BOLD, 100); //Sets the font as bold and size as 100
         _j1.setFont(_f2); //Applies the font to the text.
