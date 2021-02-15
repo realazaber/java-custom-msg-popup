@@ -11,7 +11,7 @@ public class BasicMsgPopup extends JFrame{
     public BasicMsgPopup(int _x, int _y, int _w, int _h, String _s) { 
         setTitle("Your message"); //Title of the popup box
         setBounds(_x, _y, _w, _h); //Sets the position and size of the ui box, I set the parameters to be the same as the constructor.
-        setDefaultCloseOperation(EXIT_ON_CLOSE ); //This will make it so when the user closes the dialog box the program ends, saving system resources.
+        setDefaultCloseOperation(EXIT_ON_CLOSE); //This will make it so when the user closes the dialog box the program ends, saving system resources.
         setVisible(true); //Makes the box actually visible.
         JLabel _j1 = new JLabel (_s); //Creates new UI box.
         
